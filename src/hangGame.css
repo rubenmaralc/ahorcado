@@ -1,0 +1,47 @@
+.futuristic-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .futuristic-button:hover {
+    background-color: #00aaff;
+    transform: scale(1.05);
+  }
+  
+  .glass-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .futuristic-button {
+    /* ... otros estilos ... */
+    backdrop-filter: brightness(1.2) blur(5px);
+  }
+  
+  .futuristic-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .futuristic-item {
+    background-color: #00aaff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transform: rotate(5deg);
+  }
+
+  .guessed {
+    background-color: #888; /* Cambia el color según tus preferencias */
+    cursor: not-allowed; /* Opcional: Cambia el cursor para indicar que no se puede pulsar nuevamente */
+  }
+  
