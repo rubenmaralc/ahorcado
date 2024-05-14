@@ -5,10 +5,10 @@ import '../hangGame.css'; // Importa tu archivo CSS personalizado
 
 const words = [
   'Fuerza', 'Masa', 'Velocidad', 'Aceleración', 'Energía', 'Trabajo',
-  'Potencia', 'Campo magnético', 'Campo eléctrico', 'Carga eléctrica',
-  'Corriente eléctrica', 'Resistencia', 'Voltaje', 'Frecuencia',
-  'Longitud de onda', 'Gravedad', 'Inercia', 'Ley de Newton',
-  'Momentum', 'Onda electromagnética'
+  'Potencia',
+  'Resistencia', 'Voltaje', 'Frecuencia',
+  'Gravedad', 'Inercia',
+  'Momentum', 'Presión', 'Densidad', 'Carga', 'Corriente', 'Campo',
 ];
 
 const HangmanGame = () => {
