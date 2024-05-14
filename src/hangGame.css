@@ -44,4 +44,81 @@
     background-color: #888; /* Cambia el color según tus preferencias */
     cursor: not-allowed; /* Opcional: Cambia el cursor para indicar que no se puede pulsar nuevamente */
   }
+
+
+/* CSS gpt */
+/* src/hangGame.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hangman-game {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  width: 600px;
+  margin: auto;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.keyboard button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.keyboard button:hover {
+  background-color: #45a049;
+}
+
+.keyboard button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+.keyboard button.guessed {
+  background-color: #d32f2f;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .keyboard button {
+    padding: 8px 10px;
+    margin: 3px;
+    font-size: 0.9rem;
+  }
+}
+
   
